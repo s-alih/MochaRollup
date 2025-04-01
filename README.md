@@ -1,14 +1,24 @@
-# Dummy Rollup Deploy
+# MochaRoll ☕🚀
 
-## Local Dev
+MochaRoll is a high-performance Arbitrum Nitro rollup integrated with Espresso's decentralized sequencing, designed to deliver scalability, low fees, and fair transaction ordering. By combining Ethereum's security with efficient Layer 2 execution, MochaRoll ensures a trust-minimized, censorship-resistant, and developer-friendly environment for dApps, DeFi, and beyond.
 
-```
-$ docker compose up
-```
+## Features
+- **Scalability**: High throughput and low latency.
+- **Low Fees**: Cost-effective transactions.
+- **Fair Transaction Ordering**: Ensures fairness in transaction processing.
+- **Security**: Built on Ethereum's robust security model.
 
-If you see this error:
-```
-error acting as staker                   
-err="error advancing stake from node 2 (hash 0xee288c5dcc61206e6868fa7a01da6abaabe22d6c849718a47eb361857b7e8dd8): error generating node action: block validation is still pending"
-```
-This error is expected when running a newly deployed rollup with no recent activity. It occurs because there are no new nodes to stake on or no new batches have been posted. Simply let the system continue running.
+## Demo Video
+Check out our [demo video](https://youtu.be/tgOdHRV75BM) to see MochaRoll in action.
+
+## Rollup Creation
+- **Transaction Hash**: [0x2854327fe34dda06b94e31ac83d70e608f8573a2a87d4e11479bcf9db4741bc6](https://sepolia.arbiscan.io/tx/0x2854327fe34dda06b94e31ac83d70e608f8573a2a87d4e11479bcf9db4741bc6)
+- **Chain ID**: 157329
+
+## Deployment
+- **Cloud Server IP**: [http://13.61.194.78:8547](http://13.61.194.78:8547)
+
+## Getting Started
+To get started with MochaRoll, clone the repository and follow the setup instructions in the `docker-compose.yml` file.
+
+
